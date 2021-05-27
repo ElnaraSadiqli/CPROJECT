@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace ProjectFinal.Entities
 {
-    class SalesItem :BaseEntite
-    {
-        private int _count = 0;
-      
+    public class SalesItem :BaseEntite
+    {    
+
+      public Product Product { get; set; }
+      private int _Count = 0;
         
-        public SalesItem()
+    public SalesItem()
 
-        {
+    {
            
-            No=_count++;
-
-        }
+       _Count++;
+       No = _Count;
+    }
 
 
 

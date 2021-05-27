@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text;
-
-namespace ProjectFinal
+﻿namespace ProjectFinal
 {
     class Program
     {
@@ -60,13 +57,7 @@ namespace ProjectFinal
 
 
             #endregion
- //           1 Yeni mehsul elave et  -userden yeni mehsul yaradilmasi ucun lazim olan melumatlari daxil edilmelidir
- // - 2 Mehsul uzerinde duzelis et -duzelis edilecek mehsulun code - u ve duzelis melumatlari daxil edilmelidir
- // - 3 Mehsulu sil -mehsulu kodu daxil edilmelidir
- //- 4 Butun mehsullari goster - butun mehsullar gosterilecek(kodu, adi, categoriyasi, sayi, qiymeti)
- //   -5 Categoriyasina gore mehsullari goster -usere var olan kateqoriyalar gosteilecek ve onlar arasinda bir secim etmelidir ve secilmis kateqoriyadan olan butun mehsullar gosterilir(kodu, adi, categoriyasi, sayi, qiymeti)
- // - 6 Qiymet araligina gore mehsullari goster - userden minmum ve maximum qiymetleri daxil etmesi istenilir ve hemin qiymet araliginda olan mehsullar gosterilir(kodu, adi, categoriyasi, sayi, qiymeti)
- //   -7 Mehsullar arasinda ada gore axtaris et -useden text daxil etmesi istenilir ve adinda hemin text olan butun mehsullar gosterilir(kodu, adi, categoriyasi, sayi, qiymeti)
+ 
 
 
 

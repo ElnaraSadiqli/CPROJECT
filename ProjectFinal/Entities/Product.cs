@@ -8,33 +8,29 @@ using System.Threading.Tasks;
 namespace ProjectFinal.Entities
 {
     public  class Product : BaseEntite
-    {   
-       
-        public double ProPrice { get; set; }
-        public short ProCount { get; private set; }
-      
-        private short _ProCount = 0;
-        private short _Procount;
-
-        //Product Categories(enum)
-
-        #region
+    {
+        public string Name { get; set; }
+        public double Price { get; set; }
+        public int Quantity { get;  set; }
+        int Quantity = 0;
+        #region Product Categories(enum)
         enum Categories
         {
             Meat,
             Vegetables,
             Dairy,
             Bakery,
-            Sweet
+            Sweet,
+            Drinks,
 
         }
         #endregion
 
-        public  Product()
+        public Product()
         {
 
-            _Procount++;
-            No = _ProCount;
+            Quantity++;
+            No = Quantity;
 
 
         }
